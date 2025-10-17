@@ -1,0 +1,45 @@
+/* Fixed at top-left corner */
+.logo-container {
+  position: absolute;
+  left: 25px;
+}
+
+/* Logo text style */
+.logo-text {
+  font-size: 44px;
+  font-weight: 800;
+  letter-spacing: -2px;
+  background: linear-gradient(90deg, #6E07F3, #00d9ff);
+  -webkit-background-clip: text;
+  color: transparent;
+  opacity: 0;
+  animation: fadeIn 2s ease forwards, glow 2.5s ease-in-out 2s infinite;
+}
+
+/* Fade-in effect */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    filter: blur(8px);
+    transform: translateY(-6px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+  }
+}
+
+/* Continuous soft glowing effect */
+@keyframes glow {
+  0%, 100% {
+    text-shadow:
+      0 0 6px rgba(0, 187, 255, 0.4),
+      0 0 12px rgba(0, 187, 255, 0.2);
+  }
+  50% {
+    text-shadow:
+      0 0 10px rgba(0, 187, 255, 0.8),
+      0 0 20px rgba(0, 187, 255, 0.6);
+  }
+}
