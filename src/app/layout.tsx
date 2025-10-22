@@ -24,6 +24,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="google-site-verification" content="8Z_OWwLKYQqaQ-knuxIh52FUBQMPYy_ZuDymKi5berA" />
+        <title>Joe Sleiman Portfolio</title>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
