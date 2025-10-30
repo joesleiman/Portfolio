@@ -1,16 +1,10 @@
-/* Fixed at top-left corner */
-.logo-container {
-  position: absolute;
-  left: 25px;
-}
-
-/* Logo text style */
 .logo-text {
   font-size: 44px;
   font-weight: 800;
   letter-spacing: -2px;
-  background: linear-gradient(90deg, #6E07F3, #00d9ff);
+  background: linear-gradient(90deg, var(--color-tertiary), var(--color-tertiary));
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
   opacity: 0;
   animation: fadeIn 2s ease forwards, glow 2.5s ease-in-out 2s infinite;
@@ -41,5 +35,11 @@
     text-shadow:
       0 0 10px rgba(0, 187, 255, 0.8),
       0 0 20px rgba(0, 187, 255, 0.6);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logo-text {
+    animation: none;
   }
 }

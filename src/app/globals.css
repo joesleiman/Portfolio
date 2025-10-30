@@ -1,26 +1,11 @@
 @import "tailwindcss";
+@import "./styles/variable.css";
 
-:root {
-  --color-primary: #6E07F3;
-  --color-secondary: #141c3a;
-  --color-tertiary: white;
-
-  --font-size-base: 16px;
-
-  --font-family-europa: "europa", sans-serif;
-
-  /* Box sizing for easier layout management */
-  /* This prevents padding and borders from adding to an element's total width or height. */
-  -moz-box-sizing: border-box;
-  /* Firefox support */
-  box-sizing: border-box;
-}
-
-/* Inherit box-sizing for all elements for a more predictable layout model. */
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* custom global overrides */
