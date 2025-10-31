@@ -1,7 +1,8 @@
-import Footer from "./components/footer/Footer";
-import Header from "./components/header/Header";
-import Hero from "./components/hero/Hero";
-import Intro from "./components/intro/Intro";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
+import Intro from "./components/Intro/Intro";
+import Roles from "./components/Roles/Roles";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <main>
         <Hero />
         <Intro />
+        <Roles />
       </main>
       <footer>
         <Footer />
