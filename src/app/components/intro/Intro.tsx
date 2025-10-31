@@ -1,7 +1,3 @@
-import Image from 'next/image';
-import linkedinProfile from '@/app/assets/images/linkedin-profile.jpg';
-import heroDevices from '@/app/assets/images/hero-devices.svg';
-
 export default function Intro() {
     return (
         <section className='px-8 pt-[9rem] pb-[18rem] bg-(--color-primary) text-(--color-tertiary)'>
