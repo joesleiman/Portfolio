@@ -10,9 +10,9 @@ export default function Header() {
             <nav aria-label="Main navigation">
                 <ul className="flex gap-6">
                     <li>
-                        <Link href="/projects" className="text-[var(--color-tertiary)]
-                                                          hover:text-[var(--color-primary)]
-                                                          hover:bg-[var(--color-tertiary)]
+                        <Link href="/projects" className="text-(--color-tertiary)
+                                                          hover:text-(--color-primary)
+                                                          hover:bg-(--color-tertiary)
                                                           rounded-[20px]
                                                           px-4 py-2
                                                           transition duration-300">
@@ -20,9 +20,9 @@ export default function Header() {
                         </Link>
                     </li>
                     <li>
-                        <Link href="/experience" className="text-[var(--color-tertiary)]
-                                                            hover:text-[var(--color-primary)]
-                                                            hover:bg-[var(--color-tertiary)]
+                        <Link href="/experience" className="text-(--color-tertiary)
+                                                            hover:text-(--color-primary)
+                                                            hover:bg-(--color-tertiary)
                                                             rounded-[20px]
                                                             px-4 py-2
                                                             transition duration-300">
