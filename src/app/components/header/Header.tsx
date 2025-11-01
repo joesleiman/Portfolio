@@ -7,7 +7,7 @@ export default function Header() {
             <Link href="/" className="logo-container" aria-label="Joe Sleiman Logo">
                 <span className="logo-text" aria-hidden="true">JS</span>
             </Link>
-            <nav aria-label="Main navigation">
+            <nav aria-label="Main navigation" className="hidden sm:block">
                 <ul className="flex gap-6">
                     <li>
                         <Link href="/projects" className="text-(--color-tertiary)

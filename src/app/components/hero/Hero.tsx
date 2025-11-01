@@ -20,7 +20,7 @@ export default function Hero() {
                        alt='LinkedIn Profile'/>
             </div>
             <Image src={heroDevices} alt='Hero Devices' 
-                   className='h-auto max-w-[860px] mx-auto '/>
+                   className='h-auto md:max-w-[860px] mx-auto'/>
         </section>
     );
 }
