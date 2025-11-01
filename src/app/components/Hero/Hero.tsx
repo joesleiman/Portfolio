@@ -7,10 +7,7 @@ export default function Hero() {
     return (
         <section className='px-8'>
             <div className='flex flex-col items-center pt-[3rem] pb-[3rem]'>
-                <h1 className='text-(--color-secondary) 
-                               text-[2rem] 
-                               mb-[1.5rem] 
-                               font-extrabold'>
+                <h1 className='text-(--color-secondary)'>
                     Senior Front-End Engineer & UI Craftsman
                 </h1>
                 <h2 className='font-medium mb-[1.5rem]'>
