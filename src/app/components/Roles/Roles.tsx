@@ -3,7 +3,7 @@ import { RoleCard } from "./Role-card/RoleCard";
 
 export default function Roles() {
     return (
-        <section className='px-8 pb-[1rem] bg-(--color-tertiary)'>
+        <section className='px-4 sm:px-8 pb-[1rem] bg-(--color-tertiary)'>
             <div className="bg-(--color-tertiary)
                             border 
                             border-solid 

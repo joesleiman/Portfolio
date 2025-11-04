@@ -6,8 +6,8 @@ type RoleCardProps = {
 
 export const RoleCard: React.FC<RoleCardProps> = ({ role }) => {
   return (
-    <div className="shadow-md p-6 px-[70px] py-[45px] hover:shadow-lg hover:-translate-y-21 transition-transform duration-200">
-      <div className="text-center text-4xl mb-4">{role.icon}</div>
+    <div className="shadow-md p-6 px-8 sm:px-[70px] py-[45px] hover:shadow-lg hover:-translate-y-21 transition-transform duration-200">
+      <div className="text-center text-4xl mb-4" aria-hidden="true">{role.icon}</div>
       <h3 className="text-xl font-bold mb-2">{role.title}</h3>
       <p className="mb-4 text-sm">{role.description}</p>
 

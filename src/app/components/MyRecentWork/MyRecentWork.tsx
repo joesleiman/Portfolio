@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard/ProjectCard";
 
 export default function MyRecentWork() {
     return (
-        <section className="py-[9rem] px-[4.5rem]">
+        <section className="px-4 sm:px-[4.5rem] py-[9rem]">
             <h1 className="text-center">My Recent Work</h1>
             <h2 className="text-center font-medium mb-[1.5rem]">
                 Here are a few past projects I&#39;ve worked on. Want to see more?&nbsp;
@@ -18,7 +18,7 @@ export default function MyRecentWork() {
                     Click Here
                 </Link>
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {projects.map((p, i) => (
                     <ProjectCard key={i} {...p} />
                 ))}

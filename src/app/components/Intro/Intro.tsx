@@ -1,12 +1,12 @@
 export default function Intro() {
     return (
-        <section className='px-8 
+        <section className='px-4 sm:px-8
                             pt-[9rem] 
                             pb-[18rem] 
                             bg-(--color-primary) 
                             text-(--color-tertiary)
                             relative z-1'>
-            <div className='w-[60%] mx-auto'>
+            <div className='w-full sm:w-[60%] mx-auto'>
                 <h1 className='text-center'>
                     Hi, I&#39;m Joe. Nice to meet you.
                 </h1>

@@ -1,6 +1,7 @@
 
 import { StaticImageData } from "next/image";
 import linkedinProfile from '@/app/assets/images/linkedin-profile.jpg';
+import billLogo from '@/app/assets/images/bill-com.jpg';
 
 export interface Project {
   image: StaticImageData | string;
@@ -9,10 +10,10 @@ export interface Project {
 }
 export const projects = [
     {
-      image: linkedinProfile,
+      image: billLogo,
       title:
-        "High-end, custom residential renovators serving Fraser Valley homeowners.",
-      link: "https://wfdesignbuild.com",
+        "financial platform that helps businesses pay their bills and get paid by customers more simply and efficiently.",
+      link: "https://bill.com",
     },
     {
       image: linkedinProfile,
