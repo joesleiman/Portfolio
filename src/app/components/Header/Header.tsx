@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Header() {
     return (
-        <header className="flex items-center justify-between bg-(--color-primary) w-full h-(--height-size) px-8 text-(--color-tertiary)">
+        <header className="flex items-center justify-between bg-(--color-primary) w-full h-(--header-height-size) px-8 text-(--color-tertiary)">
             <Link href="/" className="logo-container" aria-label="Joe Sleiman Logo">
                 <span className="logo-text" aria-hidden="true">JS</span>
             </Link>

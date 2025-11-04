@@ -11,6 +11,7 @@
 /* custom global overrides */
 html,
 body {
+  min-width: var(--body-min-width);
   scroll-behavior: smooth;
   font-family: var(--font-inter), sans-serif;
   color: var(--color-secondary);

@@ -1,8 +1,8 @@
 
 import { StaticImageData } from "next/image";
-import billLogo from '@/app/assets/images/bill-com.jpg';
+import bill from '@/app/assets/images/bill-com.jpg';
 import biotechne from '@/app/assets/images/biotechne.jpg';
-import Ethrai from '@/app/assets/images/ethrai.jpg';
+import ethrai from '@/app/assets/images/ethrai.jpg';
 
 export interface Project {
   image: StaticImageData | string;
@@ -11,12 +11,12 @@ export interface Project {
 }
 export const projects = [
      {
-      image: Ethrai,
+      image: ethrai,
       title: "an electronic training and knowledge platform for public employees in Saudi Arabia to develop their skills through e-learning, e-books, and interactive sessions.",
       link: "https://apps.apple.com/us/app/ethrai/id1438205024",
     },
     {
-      image: billLogo,
+      image: bill,
       title:
         "financial platform that helps businesses pay their bills and get paid by customers more simply and efficiently.",
       link: "https://www.bill.com/",
