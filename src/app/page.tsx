@@ -1,5 +1,3 @@
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Intro from "./components/Intro/Intro";
 import Roles from "./components/Roles/Roles";
@@ -10,7 +8,6 @@ import Testimonials from "./components/Testimonials/Testimonials";
 export default function Home() {
   return (
     <>
-      <Header />
       <main>
         <Hero />
         <Intro />
@@ -19,9 +16,6 @@ export default function Home() {
         <Companies />
         <Testimonials />
       </main>
-      <footer>
-        <Footer />
-      </footer>
     </>
   );
 }
