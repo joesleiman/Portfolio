@@ -5,6 +5,7 @@ import scott from '@/app/assets/images/testimonials/wilson.jpg';
 import nickSteenstra from '@/app/assets/images/testimonials/nick-steenstra.jpg';
 import alona from '@/app/assets/images/testimonials/alona.jpg';
 import shannon from '@/app/assets/images/testimonials/shannon.jpg';
+import nesrin from '@/app/assets/images/testimonials/nesrin.jpg';
 
 export const testimonials = [
     {
@@ -58,7 +59,7 @@ export const testimonials = [
         name: "Alona Gruzynska",
         title: "Product Manager | NTT DATA",
     },
-        {
+    {
         image: shannon,
         message: `Joe skilled up on Vue.js and React.js while continuing to work on Angular and Javascript.
         He took  on the task of developing a Vue project in a solo role and delivered results above expectations and with resounding success and positive feedback from the client.
@@ -67,5 +68,13 @@ export const testimonials = [
         He is quick to adapt to changing requiremnts and challenges and willing to put in the effort it requires to overcome obstacles while still delivering quality code on time and budget.`,
         name: "Shannon DuBey",
         title: "Lead Engineer, Digital Engineering | NTT DATA",
+    },
+    {
+        image: nesrin,
+        message: `While working with Joe on Bio-Techne project, he is eager to learn, for example he once sets a meeting for all of us to ask questions and write documentation about specific thing in our project so that we know later how this is done.
+        He puts a good effort to finish his tasks in a good clean way using new approaches.
+        He is helpful and not afraid to put suggestions or discuss alternatives or another options.`,
+        name: "Nesrin Elasiry",
+        title: "Software Engineer | NTT DATA",
     },
 ];

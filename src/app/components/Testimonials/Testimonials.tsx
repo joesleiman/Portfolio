@@ -17,16 +17,16 @@ export default function Testimonials() {
                 <h2 className="font-medium">Proof that I’m not just pretending to be awesome...</h2>
             </div>
 
-            <Carousel orientation="vertical" 
-                      className="mt-[4.5rem] w-full max-w-md mx-auto" 
-                      opts={{
-                        align: "start",
-                      }}
+            <Carousel orientation="vertical"
+                className="mt-[4.5rem] w-full max-w-md mx-auto"
+                opts={{
+                    align: "start",
+                }}
             >
                 <CarouselContent className="h-[400px]">
                     {testimonials.map((t, i) => (
-                        <CarouselItem key={i} 
-                                      className="flex items-center justify-center pt-0">
+                        <CarouselItem key={i}
+                            className="flex items-center justify-center pt-0">
                             <TestimonialCard {...t} />
                         </CarouselItem>
                     ))}
