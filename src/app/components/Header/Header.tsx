@@ -1,12 +1,10 @@
-import "./Header.css";
 import Link from "next/link";
+import Logo from "@/app/components/Logo/Logo";
 
 export default function Header() {
     return (
         <header className="flex items-center justify-between bg-(--color-primary) w-full h-(--header-height-size) px-8 text-(--color-tertiary)">
-            <Link href="/" className="logo-container" aria-label="Joe Sleiman Logo">
-                <span className="logo-text" aria-hidden="true">JS</span>
-            </Link>
+            <Logo />
             <nav aria-label="Main navigation" className="hidden sm:block">
                 <ul className="flex gap-6">
                     <li>

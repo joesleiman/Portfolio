@@ -5,7 +5,7 @@ import ProjectCard from "./ProjectCard/ProjectCard";
 export default function MyRecentWork() {
     return (
         <section className="px-4 sm:px-[4.5rem] py-[9rem]">
-            <h1 className="text-center">My Recent Work</h1>
+            <h1 className="main-heading text-center">My Recent Work</h1>
             <h2 className="text-center font-medium mb-[1.5rem]">
                 Here are a few past projects I&#39;ve worked on. Want to see more?&nbsp;
                 <Link href='https://joecsleiman.wixsite.com/joesleiman'

@@ -7,7 +7,7 @@ export default function Intro() {
                             text-(--color-tertiary)
                             relative z-1'>
             <div className='w-full sm:w-[60%] mx-auto'>
-                <h1 className='text-center'>
+                <h1 className='main-heading text-center'>
                     Hi, I&#39;m Joe. Nice to meet you.
                 </h1>
                 <h2 className='leading-[1.8rem] text-center'>

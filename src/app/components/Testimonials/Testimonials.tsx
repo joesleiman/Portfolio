@@ -13,7 +13,7 @@ export default function Testimonials() {
         <section className='px-4 sm:px-8
                             py-[5rem] custom-border'>
             <div className="text-center">
-                <h1>testimonials</h1>
+                <h1 className="main-heading">testimonials</h1>
                 <h2 className="font-medium">Proof that I’m not just pretending to be awesome...</h2>
             </div>
 

@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Projects() {
   return (
-    <main style={{ padding: 24, fontFamily: 'system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial' }}>
+    <main className="flex-1" style={{ padding: 24, fontFamily: 'system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial' }}>
       <h1>🧑‍💻 My portfolio is still in beta — features coming soon!</h1>
       <p>
         🚧 This portfolio is still under construction — watch your step!<br />

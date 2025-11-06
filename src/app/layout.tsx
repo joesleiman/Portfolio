@@ -33,7 +33,7 @@ export default function RootLayout({
         <title>Joe Sleiman Portfolio</title>
       </head>
       <body
-        className={`${inter.variable} ${montserrat.variable} antialiased`}
+        className={`${inter.variable} ${montserrat.variable} antialiased flex flex-col min-h-screen`}
       >
         <Header />
         {children}
