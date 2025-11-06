@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Companies() {
     return (
-        <section className='px-4 sm:px-8 py-[4.5rem] border-t border-solid border-(--color-border)'>
+        <section className='px-4 sm:px-8 py-[4.5rem] custom-border'>
             <div className="w-full sm:w-1/2 mx-auto">
                 <h1 className="text-center">I&#39;m proud to have collaborated with some awesome clients & companies:</h1>
             </div>
