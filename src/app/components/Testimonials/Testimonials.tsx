@@ -21,7 +21,6 @@ export default function Testimonials() {
                       className="mt-[4.5rem] w-full max-w-md mx-auto" 
                       opts={{
                         align: "start",
-                        loop: true,
                       }}
             >
                 <CarouselContent className="h-[400px]">
