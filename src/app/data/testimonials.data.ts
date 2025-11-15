@@ -65,7 +65,7 @@ export const testimonials = [
         He took  on the task of developing a Vue project in a solo role and delivered results above expectations and with resounding success and positive feedback from the client.
         
         Joe is clearly dedicated to continuing to skill up and investigating new technologies.
-        He is quick to adapt to changing requiremnts and challenges and willing to put in the effort it requires to overcome obstacles while still delivering quality code on time and budget.`,
+        He is quick to adapt to changing requirements and challenges and willing to put in the effort it requires to overcome obstacles while still delivering quality code on time and budget.`,
         name: "Shannon DuBey",
         title: "Lead Engineer, Digital Engineering | NTT DATA",
     },
