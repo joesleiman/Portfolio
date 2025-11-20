@@ -8,7 +8,7 @@ export default function Experience() {
         <main className="flex-1 px-4 sm:px-8 py-[2rem] ">
             <ExperienceHeader />
             {/* Timeline */}
-            <div className="max-w-4xl mx-auto px-6 py-16">
+            <div className="max-w-4xl mx-auto py-16">
                 <Experiences />
                 <CallToAction
                     title="Let's Build Something Amazing"

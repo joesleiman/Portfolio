@@ -12,7 +12,7 @@ export function Experiences() {
     }
 
     return (
-        <div className="relative">
+        <>
             {experiences.map((exp) => (
                 <ExperienceCard
                     key={exp.id}
@@ -21,6 +21,6 @@ export function Experiences() {
                     onToggle={() => handleToggle(exp.id)}
                 />
             ))}
-        </div>
+        </>
     );
 }
