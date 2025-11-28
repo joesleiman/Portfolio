@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" data-scroll-behavior="smooth">
       <head>
         <meta name="google-site-verification" content="8Z_OWwLKYQqaQ-knuxIh52FUBQMPYy_ZuDymKi5berA" />
         <title>Joe Sleiman Portfolio</title>

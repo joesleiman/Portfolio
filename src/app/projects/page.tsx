@@ -1,6 +1,6 @@
-import HeroSection from './HeroSection';
-import PersonalProjects from './PersonalProjects';
-import ProfessionalProjects from './ProfessionalProjects';
+import HeroSection from './components/HeroSection';
+import PersonalProjects from './components/PersonalProjects';
+import ProfessionalProjects from './components/ProfessionalProjects';
 
 export default function Projects() {
   return (

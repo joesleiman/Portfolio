@@ -1,5 +1,5 @@
-import FadeUpCard from "./FadeUpCard";
-import { personalProjects } from "./projects.data";
+import FadeUpCard from "../components/FadeUpCard";
+import { personalProjects } from "../data/projects.data";
 
 export default function PersonalProjects() {
     return (

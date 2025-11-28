@@ -15,6 +15,7 @@ export default function Hero() {
                 </h2>
                 <Image className='rounded-full w-[212px] mt-[2rem]'
                     src={linkedinProfile}
+                    priority
                     alt='LinkedIn Profile' />
             </div>
             <Image src={heroDevices} alt='Hero Devices'

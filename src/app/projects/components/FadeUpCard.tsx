@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import type { Project } from "./projects.data";
-import { useInView } from "./useInView";
+import type { Project } from "../data/projects.data";
+import { useInView } from "../hooks/useInView";
 
 interface FadeUpCardProps {
   project: Project;
@@ -33,6 +33,7 @@ export default function FadeUpCard({ project }: FadeUpCardProps) {
               src={project.image}
               alt={`Screenshot of ${project.title}`}
               fill
+              priority={project.id === 'portfolio'}
               placeholder="blur"
               sizes="(max-width: 768px) 100vw,
                  (max-width: 1200px) 50vw,

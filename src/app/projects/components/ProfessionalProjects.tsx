@@ -1,5 +1,5 @@
 import FadeUpCard from "./FadeUpCard";
-import { professionalProjects } from "./projects.data";
+import { professionalProjects } from "../data/projects.data";
 
 export default function ProfessionalProjects() {
     return (
