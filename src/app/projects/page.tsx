@@ -1,23 +1,13 @@
-import Link from 'next/link';
+import HeroSection from './HeroSection';
+import PersonalProjects from './PersonalProjects';
+import ProfessionalProjects from './ProfessionalProjects';
 
 export default function Projects() {
   return (
     <main className="flex-1" style={{ padding: 24, fontFamily: 'system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial' }}>
-      <h1>🧑‍💻 My portfolio is still in beta — features coming soon!</h1>
-      <p>
-        🚧 This portfolio is still under construction — watch your step!<br />
-        In the meantime, you can check out my projects below 👇
-      </p>
-      <p>
-        <Link
-          href="https://joecsleiman.wixsite.com/joesleiman"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ color: '#0366d6', textDecoration: 'underline' }}
-        >
-          Open my external portfolio
-        </Link>
-      </p>
+        <HeroSection />
+        <ProfessionalProjects />
+        <PersonalProjects />
     </main>
   );
 }
